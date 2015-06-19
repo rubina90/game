@@ -26,3 +26,11 @@
     height: 20px;
     background: yellow;
 }
+
+.bullet {
+    position: absolute;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    background: pink;
+}
