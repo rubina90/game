@@ -1,0 +1,28 @@
+#game {
+    position: relative;
+    width: 200px;
+    height: 400px;
+    background: red;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+#car {
+    position: absolute;
+    width: 20px;
+    height: 60px;
+    bottom: 0;
+    left:80px;
+    background: blue;
+    display: inline-block;
+}
+
+.wall {
+    position: absolute;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: yellow;
+}
