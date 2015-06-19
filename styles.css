@@ -33,4 +33,5 @@
     width: 5px;
     height: 5px;
     background: pink;
+    z-index: 100;
 }

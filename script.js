@@ -37,7 +37,7 @@ $(document).ready(function() {
         var $bullet = $("<div class='bullet'></div>");
         $('#game').append($bullet);
 
-        $('.bullet').css('top', $('#game').height() - $('#car').height());
+       $('.bullet').css('top', $('#game').height() - $('#car').height());
         $('.bullet').css('left', parseFloat($('#car').css('left')));
         moveBullet($bullet);
     }
